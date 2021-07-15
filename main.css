@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  Tahoma, sans-serif;
+}
+
+
+
+.container{
+    width: 60%;
+    background-color: #f6f6f6;
+    margin: auto;
+}
+.container .get-repos{
+    padding:20px;
+    display: flex;
+    background-color: #eee;
+}
+.container .get-repos input{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height :55px
+}
+.container .get-repos input:focus{
+    outline: 2px solid #c7342a;
+}
+.container .get-repos .get-button{
+    width: 140px;
+    margin-left: 10px;
+    height: 55px;
+    background-color: #ff7a70;
+    color:#fff;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.container .data{
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+
+.github-cards {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+  }
+  a{
+      margin: 5px;
+  }
+  a:hover{
+      color: #c7342a  !important;
+
+  }
+  .github-card {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin:  20px/2;
+    padding:  20px;
+    color: #555;
+    text-decoration: none;
+    font-size: 13px;
+    flex: 1;
+    min-width: 250px;
+  }
+
+h3 {
+      margin-top: 0;
+      color: #4078c0;
+      font-size: 15px;
+  }
+  h3:hover{
+      color: #c7342a;
+  }
+  
+  .github-card__meta {
+    margin-right:  20px;
+  } 
+ i {
+      font-size: 16px;
+    }
+  
+i{
+    padding: 2px;
+}
